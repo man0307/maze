@@ -44,8 +44,8 @@ public class TheUtils {
 
         @Override
         public void actionPerformed(ActionEvent e) {
-            System.out.print("beg: " + begin + "\n end:" + end + "  flag" + flag);
-            System.out.println(map.get(button).x + " " + map.get(button).y);
+//            System.out.print("beg: " + begin + "\n end:" + end + "  flag" + flag);
+//            System.out.println(map.get(button).x + " " + map.get(button).y);
             if (!button.getBackground().equals(Color.BLACK)) {
                 if (begin == null && flag) {
                     begin = button;
@@ -100,12 +100,12 @@ public class TheUtils {
             }
         }
         prim();
-        for (int i = 0; i < (ROWS * 2 + 1); i++) {
-            for (int j = 0; j < (CLOS * 2 + 1); j++) {
-                System.out.print(maze[i][j]);
-            }
-            System.out.println();
-        }
+//        for (int i = 0; i < (ROWS * 2 + 1); i++) {
+//            for (int j = 0; j < (CLOS * 2 + 1); j++) {
+//                System.out.print(maze[i][j]);
+//            }
+//            System.out.println();
+//        }
         for (int i = 0; i < (ROWS * 2 + 1); i++) {
             for (int j = 0; j < (CLOS * 2 + 1); j++) {
                 map.put(MainWindow.buttons[i][j], new Point(i, j));
@@ -219,7 +219,7 @@ public class TheUtils {
         que.offer(points[x][y]);
         while (!que.isEmpty()) {
             Point temp = que.poll();
-            System.out.println("x:" + temp.x + "  y:" + temp.y);
+//            System.out.println("x:" + temp.x + "  y:" + temp.y);
             MainWindow.buttons[temp.x][temp.y].setBackground(c1);
             if (MainWindow.buttons[temp.x][temp.y].equals(end)) {
                 getPath(temp.x, temp.y);
@@ -251,7 +251,7 @@ public class TheUtils {
                 break;
             }
         }
-        System.out.println("出来了");
+//        System.out.println("出来了");
     }
 }
 
