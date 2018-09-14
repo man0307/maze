@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="xom-1.2.10">
+    <CLASSES>
+      <root url="jar://F:/java工具包/xom-1.2.10.zip!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://F:/java工具包/xom-1.2.10.zip!/XOM/apidocs" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://F:/java工具包/xom-1.2.10.zip!/XOM/fatsrc" />
+      <root url="jar://F:/java工具包/xom-1.2.10.zip!/XOM/src" />
+      <root url="jar://F:/java工具包/xom-1.2.10.zip!/XOM/src15" />
+    </SOURCES>
+  </library>
+</component>

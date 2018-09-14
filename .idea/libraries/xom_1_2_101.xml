@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="xom-1.2.101">
+    <CLASSES>
+      <root url="jar://F:/java工具包/xom-1.2.10/XOM/xom-1.2.10.jar!/" />
+      <root url="jar://F:/java工具包/xom-1.2.10/XOM/xom-samples.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
