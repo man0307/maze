@@ -10,6 +10,7 @@ import java.awt.event.ActionEvent;
  */
 public class MainWindow extends JFrame {
 
+
     static JButton[][] buttons;//保持包私有
     private JPanel panel = new JPanel();
     private JPanel panel2 = new JPanel();
